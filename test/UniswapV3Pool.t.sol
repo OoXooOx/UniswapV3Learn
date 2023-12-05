@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.14;
 
-
+//forge test --match-contract UniswapV3PoolTest -vv         
 //forge script scripts/DeployDevelopment.s.sol --broadcast --fork-url http://localhost:8545 --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 //cast call 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 "allowance(address,address)" "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266" "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9" --rpc-url http://localhost:8545
 //cast call 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 "totalSupply()(uint256)" --rpc-url http://localhost:8545
